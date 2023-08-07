@@ -24,7 +24,7 @@ export default function StepProgress({currentStep}) {
   return (
     <>
       <section>
-        <h2 class="registerTitle">結帳</h2>
+        <h2>結帳</h2>
 
         <div className={styles.container}>
             <Step currentStep={currentStep} stepProgress={1} stepTitle={"寄送地址"}/>

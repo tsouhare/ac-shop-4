@@ -11,7 +11,7 @@ export default function StepOne() {
                 <div className={styles.inputLabel}>稱謂</div>
                 <div className="select-container">
                   <select className={styles.selections}>
-                    <option value="mr" selected="">
+                    <option value="mr">
                       先生
                     </option>
                     <option value="ms">女士</option>

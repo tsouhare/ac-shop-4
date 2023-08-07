@@ -8,7 +8,7 @@ export default function StepTwo() {
         <section>
             <label className={styles.radioGroup} data-price={0}>
               <div className={styles.groupRadio}>
-                <input id="shipping-standard" type="radio" name="shipping" defaultChecked="" checked/>
+                <input id="shipping-standard" type="radio" name="shipping" defaultChecked=""/>
               </div>
               <div className={styles.groupText}>
                 <div>標準運送</div>
